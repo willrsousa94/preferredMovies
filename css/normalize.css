@@ -1,0 +1,50 @@
+:root {
+
+    --backgroundColor: #f1f1f1;
+    --newTopic: #232;
+    --text: rgb(36, 30, 36);
+    --signature: #222;
+
+}
+
+body {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--backgroundColor)
+}
+
+header, section, footer {
+    margin: auto;
+    width: 50%;
+    padding: 10px 5px;
+}
+
+h1,h2,h3,h4 {
+    color: var(--newTopic)
+}
+
+nav {
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 11px;
+    font-family: Calibri;
+    color: var(--text)
+}
+
+.signature {
+    text-align: right;
+    font-size: .9em;
+    font-weight: bold;
+    color: var(--signature)
+}
